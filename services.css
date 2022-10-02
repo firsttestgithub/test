@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding:0;
+  }
+
+  .container{
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+  }
+      .pick-one{
+  width:170px;
+  height:auto;   
+  position: absolute;
+  top:0;
+
+}
+#myNavbar{
+float:right;
+}
+
+nav{
+   background-color:#21253a;
+   width:100%;
+    }
+
+    a{
+        font-size:17px;
+        font-weight: 700;
+        
+        }
+        span{
+          color:#fff;
+        }
+        span:hover{
+        color:#66b1f6;
+          transition: 0.4s ease;
+          
+          height: 0.10rem;
+          opacity: 1;
+          border-bottom: 1px solid #66b1f6;
+          cursor: pointer;
+        }
+        .text-2{
+            padding:70px 0 170px 0;
+
+        }
+        .text-2 h1{
+            font-weight:bold;
+            font-size:30px;
+            text-align: center;
+       
+          justify-content: center;
+        }
+        .text-2 p{
+        
+            color:#4f5665;
+            font-size:18px;
+            line-height:27px;
+            position: absolute;
+            left:1%;
+            text-align: center;
+        }
+
+        .pick-2{
+   
+            width:100%;
+            height:auto;
+         }
+         
+         
+            .text-1 {
+               height:530px;
+               width:320px;
+               padding:20px;
+               text-align: center;
+               border-radius: 25px;
+               background-color: #21253a;
+               box-shadow: 10px 0px 7px 5px rgba(1,0,0,0.2);
+                margin-left:10px;
+                /*margin-top:70px;*/
+                margin:10px;
+             }
+           
+           
+         h2{
+             color:#66b1f6;
+             padding: 10px 0;
+             font-size:20px;
+             text-align: left;
+         
+         }
+           p{
+             color:white;
+             line-height:35px;
+             font-size: 18px;
+             text-align: left;
+           }
+         
+         #footer{
+             
+             height:80px;
+             width:100%;
+             background-color: #21253a;
+             display:flex;
+             flex-direction: column;
+             align-items:center;	
+             margin-top:20px;
+             }
+    .btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 99;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        background-color: rgb(183, 176, 176);
+        color: darkgray;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 4px;
+        border-radius: 30%;
+        transition: 2s ease;
+        }
+        
+        .btn:hover {
+        background-color:rgb(37, 37, 205);
+        }
+
+    
